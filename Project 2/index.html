@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Sample Table</title>
+
+    <!-- CSS to add background color and basic styling -->
+    <style>
+        /* Setting the background color of the whole page */
+        body {
+            background-color: #e6f7ff; /* Light blue background */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        /* Adding border and background to tables for better visibility */
+        table {
+            border-collapse: collapse;
+            background-color: #ffffff; 
+        }
+        
+        /* Styling table cells and headers */
+        td, th {
+            border: 1px solid #cccccc;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+    
+    <form action="#" method="post">
+        <!-- Using table to align form elements neatly -->
+        <table align="center" width="500" cellpadding="5">
+            
+            <!-- Row 1: Text Input (Your original code) -->
+            <tr>
+                <td><label for="userName">Input type text</label></td>
+                <td>
+                    <input type="text" id="userName" name="name" size="50" maxlength="30"
+                           value="Prince" placeholder="Enter your name"/>
+                </td>
+            </tr>
+
+            <!-- Row 2: Email Input (Enhancement) -->
+            <tr>
+                <td><label for="userEmail">Input type email</label></td>
+                <td>
+                    <input type="email" id="userEmail" name="email" size="50" 
+                           placeholder="Enter your email"/>
+                </td>
+            </tr>
+
+            <!-- Row 3: Password Input (Enhancement) -->
+            <tr>
+                <td><label for="userPass">Input type password</label></td>
+                <td>
+                    <input type="password" id="userPass" name="password" size="50" 
+                           placeholder="Enter password"/>
+                </td>
+            </tr>
+
+            <!-- Row 4: Submit Button (Enhancement) -->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit Form"/>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <br><hr><br>
+
+    <h2>Sample Student Data Table</h2>
+
+    <table align="center" width="500" cellpadding="5">
+        
+        <!-- Table Header Row -->
+        <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Course</th>
+        </tr>
+
+        <!-- Table Data Row 1 -->
+        <tr>
+            <td>101</td>
+            <td>Prince</td>
+            <td>Web Development</td>
+        </tr>
+
+        <!-- Table Data Row 2 -->
+        <tr>
+            <td>102</td>
+            <td>Priya</td>
+            <td>Data Science</td>
+        </tr>
+
+        <!-- Table Data Row 3 -->
+        <tr>
+            <td>103</td>
+            <td>Rahul</td>
+            <td>Cloud Computing</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
